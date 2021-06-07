@@ -19,3 +19,10 @@ console.log(table[0][2],table[2][1]);
 
 
 //e) 'table' is an example of a 2-dimensional array. The first “level” contains the element arrays, and the second level holds the name/symbol/mass values. Experiment! Create a 3-dimensional array and print out one entry from each level in the array.
+let names = [[
+  ["Tom", "Joe", "Dave"]
+  ["Suzy", "Lisa", "Sara"]
+  ["Chris", "Cory", "Nic"]
+]];
+
+console.log(names[0][2],names[2][1],names[1][0]);
